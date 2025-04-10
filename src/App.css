@@ -1,0 +1,17 @@
+body {
+  
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glow-text {
+  color: black;
+  font-size: 3rem;
+  text-shadow:
+    0 0 5px #b3ecff,
+    0 0 10px #b3ecff,
+    0 0 20px #b3ecff;
+}
